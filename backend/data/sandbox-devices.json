@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sandbox-phone-01",
+    "label": "Test Phone — Pixel 6 (dummy)",
+    "type": "smartphone",
+    "mockCategories": [
+      { "name": "Photos & videos", "items": 1284, "sensitivity": "medium" },
+      { "name": "Messages", "items": 3021, "sensitivity": "high" },
+      { "name": "Google account link", "items": 1, "sensitivity": "high" },
+      { "name": "Saved passwords", "items": 47, "sensitivity": "critical" },
+      { "name": "Banking apps", "items": 3, "sensitivity": "critical" },
+      { "name": "Cached files", "items": 5893, "sensitivity": "low" }
+    ]
+  },
+  {
+    "id": "sandbox-laptop-01",
+    "label": "Test Laptop — ThinkPad X1 (dummy)",
+    "type": "laptop",
+    "mockCategories": [
+      { "name": "Documents", "items": 892, "sensitivity": "high" },
+      { "name": "Browser saved logins", "items": 63, "sensitivity": "critical" },
+      { "name": "Email client cache", "items": 1, "sensitivity": "high" },
+      { "name": "Encryption keys / SSH", "items": 5, "sensitivity": "critical" },
+      { "name": "Recycle bin", "items": 210, "sensitivity": "medium" }
+    ]
+  },
+  {
+    "id": "sandbox-tablet-01",
+    "label": "Test Tablet — iPad Air (dummy)",
+    "type": "tablet",
+    "mockCategories": [
+      { "name": "iCloud account link", "items": 1, "sensitivity": "high" },
+      { "name": "Photos", "items": 640, "sensitivity": "medium" },
+      { "name": "App data", "items": 34, "sensitivity": "medium" },
+      { "name": "Saved cards (Wallet)", "items": 2, "sensitivity": "critical" }
+    ]
+  }
+]

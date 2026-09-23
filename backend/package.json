@@ -1,0 +1,15 @@
+{
+  "name": "safewipe-backend",
+  "version": "1.0.0",
+  "description": "SafeWipe - Personal Data & Device Disposal backend (PS-009)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/test-certificate.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "qrcode": "^1.5.4"
+  }
+}
